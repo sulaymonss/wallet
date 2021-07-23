@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7CE76;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 450px;
+}
+
+.left{
+    background-color: #F2F2F2;
+    width: 300px;
+    height: 450px;
+    padding: 40px 30px;
+    border-radius: 2px 0 0 2px;
+    overflow: auto;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.left-header button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.card-list{
+    list-style-type: none;
+}
+
+.cards{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.cards:hover{
+    border: 2px solid #999;
+    padding: 13px;
+}
+
+.active{
+    border: 2px solid #999;
+    padding: 13px;
+}
+
+.cards:last-child{
+    margin-bottom: 0;
+}
+
+.cards i{
+    color: #133B7B;
+    margin-bottom: 10px;
+}
+
+.cards p{
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.cards .date{
+    display: inline-block;
+    color: #777;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.left::-webkit-scrollbar{
+    width: 0;
+}
+
+.right{
+    width: 550px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 0 2px 2px 0;
+    padding: 40px 30px;
+    overflow: auto;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.right-header span{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #f3f3f3;
+    margin-bottom: 50px;
+}
+
+.left-list{
+    list-style-type: none;
+}
+
+.left-list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.left-list li:last-child{
+    margin-bottom: 0;
+}
+
+.left-list .pm{
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #888;
+    line-height: 22px;
+    text-align: center;
+}
+
+.info{
+    margin-left: 35px;
+}
+
+.info span{
+    display: inline-block;
+    color: #777;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.value{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0076B8;
+}
+
+.funds{
+    color: #048C07;
+}
+
+.right::-webkit-scrollbar{
+    width: 0;
+}
